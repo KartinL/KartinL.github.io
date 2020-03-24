@@ -421,14 +421,18 @@ a.icon {
 .header-three, .header-four,
 .header-five {
   height: 42vh !important;
-  min-height: 420px;
-  padding-top: 120px !important;
+  min-height: 20px; 
+  /* changed */
+  /* padding-top: 120px !important; */
+  padding-top: 60px !important;
 }
 
 .header-one {
-  background: url('../images/header2.jpg') no-repeat;
-  height: 60vh !important;
-  min-height: 520px;
+  background: none;
+  /* height: 60vh !important; */
+  height: 0vh !important;
+  /* min-height: 520px; */
+  min-height: 0px;
   padding-top: 150px !important;
 }
 .header-two {
@@ -455,6 +459,15 @@ a.icon {
 #portfolio img {
   width: 100%;
 }
+
+#portfolio_square 
+.thumb1 { 
+  background: url(blah.jpg) 50% 50% no-repeat; /* 50% 50% centers image in div */
+  width: 250px;
+  height: 250px;
+}
+
+.thumb1:hover {color: black}
 
 #portfolio .portfolio-thumb {
   position: relative;
