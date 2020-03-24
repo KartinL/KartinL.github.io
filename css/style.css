@@ -456,17 +456,24 @@ a.icon {
   padding-bottom: 6rem;
 }
 
+.image-cropper {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+img {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+}
+
 #portfolio img {
   width: 100%;
 }
-
-#portfolio_square 
-.thumb1 { 
-  background: url(images/portfolio-img1.jpg) 50% 50% no-repeat; /* 50% 50% centers image in div */
-  width: 250px;
-  height: 250px;
-}
-.thumb1:hover
 
 #portfolio .portfolio-thumb {
   position: relative;
