@@ -458,11 +458,11 @@ a.icon {
 
 #portfolio img {
   width: 100%;
+  background-size:cover;
 }
 
 #portfolio .portfolio-thumb {
-  /* position: relative; */
-  position: cover;
+  position: relative;
   overflow: hidden;
   margin: 0;
 } 
