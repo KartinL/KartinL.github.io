@@ -1,3 +1,48 @@
 remote_theme: KartinL/adam-blog
-title: Welcome to Kartin Leung's Portfolio!
-description: Feel free to bookmark this to stay updated on future projects!
+title: My Portfolio - Kartin Leung
+email: kartinleung@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Welcome to my portfolio where I document my journey from Interior Architecture and Computational Design to UX/UI Design! 
+permalink: ':title/'
+baseurl: "/kartin-portfolio" # the subpath of your site, e.g. /blog
+url: "https://kartinl.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Author settings
+author: Kartin Leung # add your name
+author-pic: kartin-face.jpg
+about-author: My name is Kartin Leung. I’m an aspiring UX/UI desisgner and visual content creator.
+
+# Contact links
+email: kartinleung@gmail.com # Add your Email address
+phone: 0420 636 321 # Add your Phone number
+website: kartinl.github.io # Add your website, do not add http://
+linkedin: Kartin Leung # Add your Linkedin handle
+github: KartinL # Add your Github handle
+# twitter: '@artemsheludko_' # Add your Twitter handle
+# facebook: # Add your Facebook handle
+# instagram: # Add your Instagram handle
+# pinterest: # Add your Pinterest handle
+
+# Newsletter
+# mailchimp: # Add your MailChimp form identifier.
+
+# Disqus
+# discus_identifier: mr-brown # Add your discus identifier
+
+# Tracker
+# analytics: # Google Analytics
+
+# Paginate
+paginate: 6
+paginate_path: /page:num/
+
+# Build settings
+markdown: kramdown
+
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+
+include: [_pages]
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock", "package-lock.json", "assets/css/sass/"]
