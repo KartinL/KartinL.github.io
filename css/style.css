@@ -456,20 +456,13 @@ a.icon {
   padding-bottom: 6rem;
 }
 
-.image-cropper {
-  width: 100px;
-  height: 100px;
-  position: relative;
-  overflow: hidden;
-  border-radius: 50%;
-}
-
 #portfolio img {
   width: 100%;
 }
 
 #portfolio .portfolio-thumb {
-  position: relative;
+  /* position: relative; */
+  position: cover;
   overflow: hidden;
   margin: 0;
 } 
