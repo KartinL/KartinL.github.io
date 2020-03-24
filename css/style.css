@@ -462,11 +462,10 @@ a.icon {
 
 #portfolio_square 
 .thumb1 { 
-  background: url(blah.jpg) 50% 50% no-repeat; /* 50% 50% centers image in div */
+  background: url(images/portfolio-img1.jpg) 50% 50% no-repeat; /* 50% 50% centers image in div */
   width: 250px;
   height: 250px;
 }
-
 .thumb1:hover {color: black}
 
 #portfolio .portfolio-thumb {
