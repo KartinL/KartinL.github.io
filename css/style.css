@@ -464,13 +464,6 @@ a.icon {
   border-radius: 50%;
 }
 
-img {
-  display: inline;
-  margin: 0 auto;
-  height: 100%;
-  width: auto;
-}
-
 #portfolio img {
   width: 100%;
 }
