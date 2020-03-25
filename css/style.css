@@ -83,7 +83,7 @@ a:focus {
 }
 
 img {
-  max-width: 100%;
+  max-width: 400px;
   max-height: 350px;
   
   /*width: 100%;*/
@@ -402,7 +402,7 @@ a.icon {
   background-position: center center;
   text-align: center;
   /* padding-top: 130px; */
-  padding-top: 20px;
+  padding-top: 50px;
   padding-bottom: 100px;
 }
 
@@ -427,7 +427,7 @@ a.icon {
   min-height: 20px; 
   /* changed */
   /* padding-top: 120px !important; */
-  padding-top: 10px !important;
+  padding-top: 30px !important;
 }
 
 .header-one {
@@ -437,7 +437,7 @@ a.icon {
   /* min-height: 520px; */
   min-height: 0px;
   /* padding-top: 15px !important; */
-  padding-top: 150px !important;
+  padding-top: 70px !important;
 }
 .header-two {
   background: url('../images/header-two-bg.jpg') no-repeat;
@@ -462,6 +462,7 @@ a.icon {
 
 #portfolio img {
   height: 100%;
+  /* width: 100; */
 }
 
 #portfolio .portfolio-thumb {
