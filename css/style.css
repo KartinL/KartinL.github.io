@@ -462,27 +462,8 @@ a.icon {
   background: url(images/portfolio-img1.jpg) 50% 50% no-repeat; /* 50% 50% centers image in div */
   /* width: 350px; */
   height: 350px;
-  width: 350%;
-  overflow: hidden;
-}
-
-.thumb1:hover { 
-  opacity: 0.9; 
-}
-
-.col1-thumbnail {
-  position: relative;
-  overflow: hidden;
   width: 350px;
-  height: 350px;
-}
-
-.home-col1-other-posts .col1-thumbnail img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  max-width: none;
-  width: 300px; /* adjust to your pleasure */
+  overflow: hidden;
 }
 
 .thumb1:hover { 
