@@ -83,7 +83,7 @@ a:focus {
 }
 
 img {
-  max-width: 400px;
+  max-width: 350px;
   max-height: 350px;
   object-fit: cover;
   
@@ -492,8 +492,10 @@ a.icon {
 
 #portfolio .portfolio-thumb .portfolio-overlay .portfolio-item {
     text-align: center;
-    padding: 50% 20px 20px;
-}
+    padding: 40% 20px 20px; 
+} 
+
+/* important */
 
 #portfolio .portfolio-thumb .portfolio-overlay .fa {
     background: #f9f9f9;
