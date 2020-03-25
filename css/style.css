@@ -460,7 +460,7 @@ a.icon {
 
 .thumb1 { 
   background: url(images/portfolio-img1.jpg) 50% 50% no-repeat; /* 50% 50% centers image in div */
-  width: 350px;
+  /* width: 350px; */
   height: 350px;
   overflow: hidden;
 }
