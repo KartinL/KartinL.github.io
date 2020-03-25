@@ -462,8 +462,7 @@ a.icon {
   width: 350px;
   height: 350px;
   overflow: hidden;
-  position: center;
-  background-size: cover;
+  background-position: center center;
 }
 
 .thumb1:hover { 
