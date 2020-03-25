@@ -463,6 +463,7 @@ a.icon {
   object-position: center; /* Center the image within the element */
   height: 350px;
   width: 350px;
+  background-size: cover;
 }
 
 .thumb1 { 
