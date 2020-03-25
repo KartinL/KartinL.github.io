@@ -462,15 +462,12 @@ a.icon {
   width: 350px;
   height: 350px;
   overflow: hidden;
+  position: center;
+  background-size: cover;
 }
 
 .thumb1:hover { 
   opacity: 0.9; 
-}
-
-.set-bg {
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 #portfolio img {
