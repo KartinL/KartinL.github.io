@@ -451,15 +451,9 @@ a.icon {
 /* Portfolio section styles
 /* ========================================== */
 #portfolio {
-  width:80%;
-  padding-bottom:80%;
-  margin:1em auto;
-  overflow:hidden;
-  position:relative;
-
-  /* text-align: center;
+  text-align: center;
   padding-top: 3rem;
-  padding-bottom: 6rem; */
+  padding-bottom: 6rem;
 }
 
 #portfolio img {
