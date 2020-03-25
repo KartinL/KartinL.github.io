@@ -459,10 +459,10 @@ a.icon {
 }
 
 .thumb1 { 
-  object-fit: cover;
+  overflow: hidden;
   width: 350px;
   height: 300px;
-  width: 100%;
+  width: 700px;
 }
 
 .thumb1:hover { 
