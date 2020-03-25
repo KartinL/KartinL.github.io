@@ -480,7 +480,9 @@ a.icon {
 }
 
 #portfolio img {
-  height: 100%;
+  max-width: 600px;
+  max-height: 350px;
+  /* height: 100%; */
 }
 
 #portfolio .portfolio-thumb {
