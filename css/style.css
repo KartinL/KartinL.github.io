@@ -458,27 +458,6 @@ a.icon {
   padding-bottom: 6rem;
 }
 
-.center-cropped {
-  object-fit: cover;
-  object-position: center; /* Center the image within the element */
-  height: 350px;
-  width: 350px;
-  background-size: cover;
-  overflow: hidden;
-  background-position: center center;
-}
-
-.thumb1 { 
-  width: 350px;
-  height: 350px;
-  overflow: hidden;
-  background-position: center center;
-}
-
-.thumb1:hover { 
-  opacity: 0.9; 
-}
-
 #portfolio img {
   height: 100%;
 }
