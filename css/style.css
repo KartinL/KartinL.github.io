@@ -458,22 +458,16 @@ a.icon {
   padding-bottom: 6rem;
 }
 
-/* .thumb1 { 
-  background: url(images/portfolio-img1.jpg) 50% 50% no-repeat; /* 50% 50% centers image in div */
-  /* width: 350px; */
-  /* height: 300px;
-  width: 100%; */
-/* } */ */
-
-img {
+.thumb1 { 
   object-fit: cover;
-  width:350px;
-  height:350px;
+  width: 350px;
+  height: 300px;
+  width: 100%;
 }
 
-/* .thumb1:hover { 
+.thumb1:hover { 
   opacity: 0.9; 
-} */
+}
 
 #portfolio img {
   height: 100%;
