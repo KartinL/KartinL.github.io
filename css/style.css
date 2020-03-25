@@ -469,6 +469,10 @@ a.icon {
   opacity: 0.9; 
 }
 
+.card .portfolio-thumb {
+  background-size: cover;
+}
+
 #portfolio img {
   height: 100%;
 }
