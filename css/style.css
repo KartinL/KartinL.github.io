@@ -85,6 +85,7 @@ a:focus {
 img {
   max-width: 400px;
   max-height: 350px;
+  object-fit: fill;
   
   /*width: 100%;*/
   /*max-width: 100%;*/
