@@ -460,6 +460,7 @@ a.icon {
 
 .thumb1 { 
   width: 500px;
+  overflow: hidden;
   height: 350px;
   background-repeat: no-repeat;
 }
