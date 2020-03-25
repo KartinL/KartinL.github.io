@@ -463,7 +463,6 @@ a.icon {
   /* width: 350px; */
   height: 350px;
   width: 100%;
-  overflow: hidden;
 }
 
 .thumb1:hover { 
