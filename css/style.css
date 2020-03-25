@@ -460,9 +460,8 @@ a.icon {
 
 .thumb1 { 
   width: 400px;
-  overflow: hidden;
   height: 350px;
-  background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 .thumb1:hover { 
