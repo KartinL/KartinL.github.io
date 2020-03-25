@@ -458,7 +458,7 @@ a.icon {
 
 #portfolio img {
   /* width: 100%; */
-   width:auto;
+  width:auto;
     min-width:100%;
     min-height:100%;
 }
