@@ -83,10 +83,11 @@ a:focus {
 }
 
 img {
-  max-width: 600px;
+  max-width: 400px;
   max-height: 350px;
+  /*width: 100%;*/
+  /*max-width: 100%;*/
 }
-
 
 /* preloader styles
 /* ========================================== */
