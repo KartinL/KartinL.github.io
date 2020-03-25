@@ -462,7 +462,8 @@ a.icon {
   background: url(images/portfolio-img1.jpg) 50% 50% no-repeat; /* 50% 50% centers image in div */
   /* width: 350px; */
   height: 350px;
-  width: auto;
+  width: 350%;
+  overflow: hidden;
 }
 
 .thumb1:hover { 
