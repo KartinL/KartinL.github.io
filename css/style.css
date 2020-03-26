@@ -86,6 +86,8 @@ img {
   max-width: 350px;
   max-height: 350px;
   object-fit: cover;
+  background-position: cover;
+  background-size: cover;
   
   /*width: 100%;*/
   /*max-width: 100%;*/
@@ -936,4 +938,8 @@ footer {
 .portfolio-item:hover .pi-inner h2 {
   opacity: 1;
   letter-spacing: 0;
+}
+
+.portfolio-filter li.mixitup-control-active {
+  color: #001418;
 }
