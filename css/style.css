@@ -57,6 +57,14 @@ h5 {
   letter-spacing: 1px;
 }
 
+h6 {
+  font-weight: 500;
+  letter-spacing: 4px;
+  font-size: 20px;
+  color: #000;
+  text-transform: uppercase;
+}
+
 p {
   color: #777;
   font-size: 16px;
@@ -436,7 +444,7 @@ a.icon {
   background: #ffffff;
   /* border: 10px solid #f9f9f9; */
   border: none;
-  padding: 20px 20px 62px 20px;
+  padding: 10px 20px 10px 20px;
   /* deleting the grey box */
 }
 
@@ -445,7 +453,7 @@ a.icon {
 .header-three .header-thumb,
 .header-four .header-thumb,
 .header-five .header-thumb {
-  padding: 32px 20px 100px 20px !important;
+  padding: 32px 20px 150px 20px !important;
   /* important for spacing  */
 }
 
@@ -468,6 +476,11 @@ a.icon {
   /* padding-top: 15px !important; */
   padding-top: 20px !important;
 }
+
+/* #header .header-four .header-thumb {
+  padding: 10px 20px 100px 20px;
+} */
+
 .header-two {
   background: url('../images/header-two-bg.jpg') no-repeat;
 }
@@ -738,7 +751,7 @@ a.icon {
 /* ========================================== */
 #contact {
   padding-top: 5rem;
-  padding-bottom: 0rem;
+  padding-bottom: 5rem;
 }
 
 #contact .fa {
@@ -755,6 +768,7 @@ a.icon {
 
 #contact .contact-form {
   padding-top: 14px;
+  padding-bottom: 100px;
 }
 
 #contact .form-control {
@@ -988,3 +1002,95 @@ footer {
   display: table-cell;
   vertical-align: top;
 }
+
+
+
+/*------------------------
+  Clear fix
+--------------------------*/
+
+/* div.clearfix{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: none;
+  margin-top: none;
+  margin-bottom: none;
+} */
+
+/* .clearfix {
+    content: '.';
+    clear:both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 10px;
+    margin-top: 10px;
+    border-top: 10px;
+    border-top: 10px;
+} */
+
+/* .no-weird-gap {
+  padding-top: none;
+  border-top: 1px;
+  margin-top: 1px;
+} */
+
+.row-no-gap {
+  /* padding-top: none;
+  border-top: 1px;
+  margin-top: 1px;
+  padding-bottom: 1px;
+  margin-bottom: 1px;
+  border-bottom: 1px; */
+  max-width: 1140px;
+  max-height: 10px;
+  
+  margin: 0 auto; 
+}
+
+.row-big-padding {
+  padding-top: 40px;
+  margin-top: 40px;
+}
+
+/* SKILLS BAR */
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container-skills {
+  max-width: 400px;
+  width: 100%; /* Full width */
+  background-color: #fff; /* Grey background */
+}
+
+.skills {
+  text-align: left; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 8px; /* Add bottom padding */
+  padding-left: 50px;
+  margin-bottom: 10px;
+  color: #fff; /* White text color */
+  font-weight: 500;
+}
+
+/* .html {width: 100%; background-color: #4CAF50;} Green */
+/* .css {width: 80%; background-color: #2196F3;} Blue */
+/* .js {width: 65%; background-color: #f44336;} Red */
+/* .php {width: 10%; background-color: #808080;} Dark Grey */
+
+.photoshop {width: 100%; background-color: #0d47a1;} /* Green */
+.sketch-Up {width: 100%; background-color: #1565c0;} /* Blue */
+.auto-cad {width: 95%; background-color: #1976d2;} /* Red */
+.indesign {width: 80%; background-color: #1e88e5;} /* Dark Grey */
+.rhino-grasshopper {width: 75%; background-color: #2196f3} /* Green */
+.figma {width: 70%; background-color: #42a5f5;} /* Blue */
+.css-html {width: 60%; background-color: #64b5f6;} /* Red */
+.dsmax {width: 55%; background-color: #bbdefb} /* Dark Grey */
+.python {width: 50%; background-color: #90caf9} /* Dark Grey */
+.illustrator {width: 30%; background-color: #e3f2fd} /* Dark Grey */
+.revit {width: 30%; background-color: #e3f2fd} /* Dark Grey */
+.django {width: 30%; background-color: #e3f2fd} /* Dark Grey */
