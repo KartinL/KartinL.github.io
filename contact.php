@@ -130,7 +130,7 @@ http://www.tooplate.com/view/2082-pure-mix
 		<div class="wow fadeInUp col-md-6 col-sm-12" data-wow-delay="1.6s">
 			<h1>Let's get in contact!</h1>
 			<div class="contact-form">
-				<form id="contact-form" method="post" action="mailer.php">
+				<form id="contact-form" method="post" action="mailer-new.php">
 					<div class="row">
                         <?php
                           if($_GET['success'] == 1) {
