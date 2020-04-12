@@ -814,6 +814,20 @@ a.icon {
   bottom: -50px;
 }
 
+.form-messages {
+  width: 70%;
+  margin: 0 auto;
+  font-size: 17px;
+  color: #333;
+  padding: 10px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.success { background-color: rgb(44, 226, 7, 0.65);}
+
+.error { background-color: rgba(252, 24, 24, 0.7);}
+
 
 
 /* footer section styles

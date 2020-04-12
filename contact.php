@@ -132,13 +132,15 @@ http://www.tooplate.com/view/2082-pure-mix
 			<div class="contact-form">
 				<form id="contact-form" method="post" action="mailer.php">
 					<div class="row">
-						<?php
-						<div class="form-messages success">
-							Thank you! Your message has been sent!
-						</div>
-						<!-- <div class="form-messages error">
-						Oops! There seems to be an error. Please try again!
-						</div> -->
+                        <?php
+                          if($_GET['success'] == 1) {
+                              echo "<div class=\"form-messages success\">Thank you! Your message has been sent.</div>";
+                          }
+
+                          if($_GET['success'] == -1) {
+                              echo "<div class=\"form-messages error\">Oops! There seems to be an error. Please try again!</div>";
+                        }
+
 						?>
 					</div>
 					<input name="name" type="text" class="form-control" placeholder="Your Name" required>
