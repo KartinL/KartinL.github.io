@@ -139,8 +139,7 @@ http://www.tooplate.com/view/2082-pure-mix
 
                           if($_GET['success'] == -1) {
                               echo "<div class=\"form-messages error\">Oops! There seems to be an error. Please try again!</div>";
-                        }
-						?>
+                        }?>
                     </div>
 					<input name="name" type="text" class="form-control" placeholder="Your Name" required>
 					<input name="email" type="email" class="form-control" placeholder="Your Email" required>
