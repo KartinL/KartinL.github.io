@@ -431,11 +431,11 @@ a.icon {
 /* header section styles
 /* ========================================== */
 #header {
-  /* -webkit-background-size: cover; */
-  /* background-size: cover; */
-  /* background-position: center center; */
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
   text-align: center;
-  /* padding-top: 130px; */
+  padding-top: 130px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -444,7 +444,7 @@ a.icon {
   background: #ffffff;
   /* border: 10px solid #f9f9f9; */
   border: none;
-  padding: 10px 20px 10px 20px;
+  padding: 10px 5px 10px 20px;
   /* deleting the grey box */
 }
 
@@ -453,7 +453,7 @@ a.icon {
 .header-three .header-thumb,
 .header-four .header-thumb,
 .header-five .header-thumb {
-  padding: 32px 20px 150px 20px !important;
+  padding: 25px 20px 150px 20px !important;
   /* important for spacing  */
 }
 
@@ -470,7 +470,7 @@ a.icon {
 .header-one {
   background: none;
   /* height: 60vh !important; */
-  height: 0vh !important;
+  height: 10vh !important;
   /* min-height: 520px; */
   min-height: 0px;
   /* padding-top: 15px !important; */
