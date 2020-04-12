@@ -118,7 +118,7 @@ http://www.tooplate.com/view/2082-pure-mix
 <!-- Contact section
 ================================================== -->
 <section id="contact">
-   <div class="container" id="form">
+   <div class="container">
       <div class="row-big-padding">
 
          <!-- <div class="wow fadeInUp col-md-6 col-sm-12" data-wow-delay="1.3s">
@@ -140,9 +140,8 @@ http://www.tooplate.com/view/2082-pure-mix
                           if($_GET['success'] == -1) {
                               echo "<div class=\"form-messages error\">Oops! There seems to be an error. Please try again!</div>";
                         }
-
 						?>
-					</div>
+                    </div>
 					<input name="name" type="text" class="form-control" placeholder="Your Name" required>
 					<input name="email" type="email" class="form-control" placeholder="Your Email" required>
 					<textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea>
